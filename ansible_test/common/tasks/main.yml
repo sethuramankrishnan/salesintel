@@ -1,0 +1,12 @@
+---
+# tasks file for common
+
+
+- include: apt_install_package.yml
+  when: ansible_os_family == 'RedHat'
+
+- include: pip_install_package.yml
+  when: ansible_os_family == 'RedHat'
+
+- include: jinja2_template_copy.yml
+  when: ansible_os_family == 'RedHat'

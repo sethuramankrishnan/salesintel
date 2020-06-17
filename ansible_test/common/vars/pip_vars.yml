@@ -1,0 +1,6 @@
+---
+pipPackages:
+  - boto
+  - boto3
+  - awscli
+

@@ -1,0 +1,11 @@
+---
+hostOneUrl: foo.example.com
+hostOneIp: 192.168.1.10
+hostOnePassword: 12345
+hostTwoUrl: bar.example.com
+hostTwoIp: 192.168.1.20
+hostTwoPassword: 67891
+hostThreeUrl: one.example.com
+hostThreeIp: 192.168.1.30
+hostThreePassword: 56843
+

@@ -1,0 +1,6 @@
+---
+ - name: copying the template
+   template:
+           src: hosts.j2
+           desc: /opt/ansible_test/hosts
+

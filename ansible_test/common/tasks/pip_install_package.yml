@@ -1,0 +1,9 @@
+---
+ - name: installing the pip pacakage
+   pip:
+     name: "(( item }}"
+     states: present
+     update_cache: yes
+     with_items:
+          - "(( pipPackage }}"
+

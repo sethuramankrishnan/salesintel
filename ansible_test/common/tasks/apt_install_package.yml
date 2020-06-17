@@ -1,0 +1,10 @@
+---
+# tasks file for common
+ - name: installing the apt packages
+   yum:
+     name: "(( item }}"
+     states: present
+     update_cache: yes
+     with_items:
+          - "(( packages }}"
+
