@@ -2,5 +2,5 @@
 # vars file for common
 
 - include: apt_vars.yml
-#- include: pip_vars.yml
-#- include: host_vars.yml   
+- include: pip_vars.yml
+- include: host_vars.yml   
